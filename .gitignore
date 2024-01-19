@@ -1,0 +1,6 @@
+*.o
+*.a
+.vscode
+libftTester/
+libft-war-machine/
+a.out
