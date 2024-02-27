@@ -5,5 +5,5 @@ Ce premier projet en tant qu'étudiant de 42 va vous faire consolider vos acquis
 
 ## Note
 - Moulinette : **125/100**
-- Peer-evaluation : **90/125**
-- Total : **107/125**
+- Peer-evaluation : **90/100**
+- Total : **107/100**
