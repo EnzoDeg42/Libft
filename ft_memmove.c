@@ -6,7 +6,7 @@
 /*   By: edegraev <edegraev@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 10:41:15 by edegraev          #+#    #+#             */
-/*   Updated: 2023/11/14 13:53:23 by edegraev         ###   ########.fr       */
+/*   Updated: 2024/04/28 17:48:54 by edegraev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,17 +16,15 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char	*d;
 	unsigned char	*s;
-	size_t			i;
 
 	d = (unsigned char *)dest;
 	s = (unsigned char *)src;
-	i = 0;
 	if (d == s)
 		return (dest);
 	if (d < s)
 		ft_memcpy(d, s, n);
 	else
-	{	
+	{
 		while (n > 0)
 		{
 			d[n - 1] = s[n - 1];
